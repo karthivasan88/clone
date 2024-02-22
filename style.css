@@ -1,0 +1,301 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  background-color: rosybrown;
+  height: 120px;
+}
+
+ul {
+  display: flex;
+  gap: 75px;
+  margin-left: 350px;
+  margin-top: 45px;
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  background-color: lightskyblue;
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.box1 {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 80px;
+  margin-left: 150px;
+  font-size: large;
+}
+
+.box2 {
+  width: 40%;
+  height: 500px;
+
+}
+
+.main {
+  height: 400px;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.container2 {
+  width: 100%;
+  background-color: azure;
+}
+
+.row {
+  display: flex;
+}
+
+.row1 {
+  width: 15%;
+  margin-top: 60px;
+}
+
+.row2 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 78%;
+}
+
+.box3 {
+  height: 150px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+h3 {
+  color: blue;
+}
+
+.box3i {
+  height: 60px;
+  width: 60px;
+}
+
+.round {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  flex-direction: column;
+}
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 740px;
+  background-color: antiquewhite;
+}
+
+.center1 {
+  margin-top: 50px;
+  line-height: 30pxpx;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  background-color: slategray;
+}
+
+.same {
+  height: 400px;
+  width: 390px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.box4 {
+  margin-top: 50px;
+  width: 30%;
+  height: 800px;
+  /* display: flex; */
+  /* text-align: center; */
+  /* display: inline-block; */
+}
+
+.space {
+  font-size: 28px;
+  font-weight: 600px;
+  margin: 20px 10px;
+  width: 390px;
+  /* display: inline-block; */
+}
+
+.space1 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 15px 10px;
+  width: 390px;
+  /* display: inline-block; */
+}
+
+button {
+  padding: 19px;
+  margin-top: 20px;
+  margin-left: 70px;
+  background-color: #82bc3b;
+  font-weight: 600;
+  border-color: transparent;
+  border-radius: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: aliceblue;
+  padding: 12px 30px;
+}
+
+.container4 {
+  width: 100%;
+  height: 800px;
+
+}
+
+.box5 {
+  width: 100%;
+}
+
+.mainai {
+  width: 100%;
+  position: absolute;
+  height: 800px;
+}
+
+.imgcenter {
+  position: relative;
+  width: 600px;
+  color: yellow;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 600px;
+  margin-right: 80px;
+}
+
+.imgcenter1 {
+  position: relative;
+  width: 600px;
+  color: whitesmoke;
+  display: flex;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500px;
+  margin-right: 80px;
+}
+
+.box6 {
+  position: relative;
+  float: right;
+  margin-top: 150px;
+
+}
+
+.container5 {
+  background-color: darkgray;
+}
+
+.hcenter {
+  margin-top: 28px;
+  font-size: 35px;
+  text-align: center;
+}
+
+hr {
+  border: 2px solid black;
+  margin-top: 17px;
+  width: 100px;
+  margin-left: 700px;
+}
+
+.lastrow {
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  gap: 20px;
+  margin-top: 20px;
+  background-color: darkgrey;
+}
+
+.box7 {
+  height: 500px;
+  width: 350px;
+  background-color: lawngreen;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  border-radius: 30px;
+}
+
+.same2 {
+  height: 300px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+footer {
+  display: flex;
+  margin-top: px;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.same3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+
+.foot {
+  display: flex;
+  align-items: centers;
+  gap: 40px;
+  margin-left: 70px;
+  width: 4 0%;
+
+}
+
+.color {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 300px;
+
+}
