@@ -253,12 +253,12 @@ hr {
 
 .box7 {
   height: 500px;
-  width: 350px;
+  width: 300px;
   background-color: lawngreen;
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 20px;
+  gap: 10px;
   border-radius: 30px;
 }
 
